@@ -1,4 +1,4 @@
-const env = process.env.NODE_ENV || 'development';
+const env = process.env.NODE_ENV || 'production';
 
 const config = {
   development: {
@@ -23,8 +23,8 @@ const config = {
 
   production: {
     server: {
-      port: process.env.PORT || 443,
-      hostname: process.env.HOSTNAME || 'localhost',
+      port: process.env.PORT
+      hostname: process.env.HOSTNAME
     },
     database: {
       url: 'mongodb://mongo:27017/express-production',
