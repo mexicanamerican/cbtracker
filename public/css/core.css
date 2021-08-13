@@ -1,0 +1,10 @@
+.float-right {
+    float: right !important;
+}
+.card-label {
+    margin-top: -12px;
+    font-size: 12px;
+}
+.text-gold {
+    color: gold !important;
+}
